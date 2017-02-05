@@ -1,7 +1,3 @@
-# DigitalOceanAPI
-<<<<<<< HEAD
-
-Example:
 
 
 =======
@@ -50,4 +46,4 @@ Example:
 				[-] Created: 2016-11-17T00:26:55Z
 				[-] Region: [u'nyc']
 				[-] Size: 7.47 
->>>>>>> origin/master
+
