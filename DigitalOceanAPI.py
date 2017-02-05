@@ -34,8 +34,9 @@ def listDroplets(idNumber):
 		idNumber.append(item['id'])		
 		print '   [+] Name:', item['name']
 		print '   [-] Status:', item['status']
-		print '   [-] OS:', item['image']['name'], '\n'		# I believe it was ['kernel']['image'] if there was 1 droplet but not 100% sure
-
+		#print '   [-] OS:', item['image']['name'], '\n'		# I believe it was ['kernel']['image'] if there was 1 droplet but not 100% sure
+																# dropping OS as very inconsistent sections
+																
 listDroplets(idNumber)
 
 
